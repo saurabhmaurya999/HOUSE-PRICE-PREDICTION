@@ -8,9 +8,11 @@ which is displayed in Indian Rupee format with commas for readability.
 Features:
 
   User-friendly Streamlit interface
+  
   Predicts house prices instantly
 
 Tech Stack:
 
   Python, Scikit-learn, NumPy, Pandas
+  
   Streamlit for UI
