@@ -5,12 +5,10 @@ import numpy as np
 
 
 
-# model = pk.load(open(r"C:\Users\Saurabh Maurya\Documents\PROJECT OF ML\House_predicrion_model.pkl","rb"))
 model = pk.load(open(r"C:\Users\Saurabh Maurya\Documents\PROJECT OF ML\House_predicrion_model.pkl", "rb"))
 
 
 st.header("House Price Predictor")
-# data = pd.read_csv("C:\Users\Saurabh Maurya\Documents\PROJECT OF ML\Cleaned_data.csv")
 data = pd.read_csv(r"C:\Users\Saurabh Maurya\Documents\PROJECT OF ML\Cleaned_data.csv")
 
 
@@ -30,6 +28,7 @@ if st.button("Predict Price"):
 
 
 import pandas as pd
+
 
 
 
